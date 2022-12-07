@@ -10,4 +10,4 @@ def weight_average(my_list=[]):
     for tup in my_list:
         average = average + (tup[0] * tup[1])
         size = size + tup[1]
-    return (avg / size)
+    return (average / size)
